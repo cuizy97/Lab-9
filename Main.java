@@ -23,7 +23,7 @@ class Main {
         // write in the file
 				bWriter.write(people.get(i).getName());
         bWriter.newLine();
-        bWriter.write(Integer.toString(people.get(i).getAge());
+        bWriter.write(Integer.toString(people.get(i).getAge()));
         bWriter.newLine();        
         bWriter.write(people.get(i).getColor());
         bWriter.newLine();
@@ -53,7 +53,7 @@ class Main {
         name = bReader.readLine();
         age = bReader.readLine();
         color = bReader.readLine();
-        System.out.printf("%-10s %-10s %-10s %n", name, age, color)
+        System.out.printf("%-10s %-10s %-10s %n", name, age, color);
       }
       // close bReader:
 			bReader.close();
@@ -64,5 +64,5 @@ class Main {
 
 
   }
-  
+
 }
