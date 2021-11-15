@@ -35,7 +35,6 @@ class Main {
     catch (IOException e) {
 			System.out.println("An error occurred: " + e);
 		}
-		////////System.out.println();
 
 
     // read from the file created, start from a try block
